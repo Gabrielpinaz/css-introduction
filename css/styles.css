@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --color-red: #f03c42;
+  --color-white: #ffffff;
+  --color-blue: #222374;
+  --color-black: #000000;
+  --color-grey-card: #cccccc;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--color-red);
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h1 {
+  color: var(--color-white);
+  display: flex;
+  font-size: 18px;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--color-white);
+  font-size: 14px;
+  padding: 10px;
+}
+
+header img {
+  width: 30px;
+  height: 30px;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#space {
+  background-color: var(--color-blue);
+  padding: 20px 20px;
+}
+
+#space h2 {
+  color: var(--color-white);
+  margin-bottom: 40px;
+}
+
+#space h3 {
+  color: var(--color-black);
+  padding: 20px;
+}
+
+#space p {
+  font-size: 14px;
+  color: var(--color-black);
+  padding: 0 20px 20px 20px;
+}
+
+.card-space {
+  background-color: var(--color-grey-card);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#modalities {
+  padding: 20px 20px;
+}
+
+#modalities h2 {
+  color: var(--color-red);
+  margin-bottom: 40px;
+}
+
+#modalities h3 {
+  padding: 20px 0 0 20px;
+  font-size: 20px;
+}
+
+#modalities p {
+  font-size: 14px;
+  padding: 20px;
+}
+
+.card-modalities {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  padding: 0 20px 0px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+footer {
+  height: 262px;
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content {
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+}
+
+.footer-alig {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-white);
+  padding: 30px 0 0 0;
+}
+
+.alig {
+  padding: 30px 0 0 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--color-white);
+  padding: 10px;
+}
+
+footer img {
+  padding: 0 0 0 37px;
+}
